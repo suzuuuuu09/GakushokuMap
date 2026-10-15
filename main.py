@@ -1,9 +1,11 @@
 from maps.GakushokuSample import GakushokuSample
+from maps.HirotoOsusume import HirotoOsusume
 from maps.InukaiOsusume import InukaiOsusume
 
 data = [
     InukaiOsusume(),
     GakushokuSample(),
+    HirotoOsusume()
 ]
 
 for rank, gakushoku in enumerate(data, start=1):
