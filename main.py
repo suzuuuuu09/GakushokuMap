@@ -1,10 +1,15 @@
 from maps.GakushokuSample import GakushokuSample
 from maps.karaage import Karaage
-
+from maps.Ebiten import Ebiten    
+from maps.HirotoOsusume import HirotoOsusume
+from maps.InukaiOsusume import InukaiOsusume
 
 data = [
-    Karaage(),
+    InukaiOsusume(),
     GakushokuSample(),
+    Karaage(),
+    HirotoOsusume(),
+    Ebiten(),
 ]
 
 for rank, gakushoku in enumerate(data, start=1):
