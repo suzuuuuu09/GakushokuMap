@@ -1,8 +1,12 @@
 from maps.GakushokuSample import GakushokuSample
-from maps.Ebiten import Ebiten
-
+from maps.Ebiten import Ebiten    
+from maps.HirotoOsusume import HirotoOsusume
+from maps.InukaiOsusume import InukaiOsusume
 
 data = [
+    InukaiOsusume(),
+    GakushokuSample(),
+    HirotoOsusume(),
     Ebiten(),
 ]
 
