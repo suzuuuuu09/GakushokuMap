@@ -1,4 +1,5 @@
 from maps.GakushokuSample import GakushokuSample
+from maps.karaage import Karaage
 from maps.Ebiten import Ebiten    
 from maps.HirotoOsusume import HirotoOsusume
 from maps.InukaiOsusume import InukaiOsusume
@@ -6,6 +7,7 @@ from maps.InukaiOsusume import InukaiOsusume
 data = [
     InukaiOsusume(),
     GakushokuSample(),
+    Karaage(),
     HirotoOsusume(),
     Ebiten(),
 ]
