@@ -1,7 +1,10 @@
 from maps.GakushokuSample import GakushokuSample
+from maps.HirotoOsusume import HirotoOsusume
 
-
-data = [GakushokuSample()]
+data = [
+    GakushokuSample(),
+    HirotoOsusume()
+]
 
 for rank, gakushoku in enumerate(data, start=1):
     print(f"{rank}位: {gakushoku.get_menu()}")
