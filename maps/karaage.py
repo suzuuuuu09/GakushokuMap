@@ -1,7 +1,7 @@
 from maps.AbstractGakushoku import AbstractGakushoku
 
 
-class GakushokuSample(AbstractGakushoku):
+class Karaage(AbstractGakushoku):
     def get_menu(self) -> str:
         return "からあげ定食"
 
